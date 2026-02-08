@@ -1,10 +1,10 @@
-public Class Address {
-    prviatte string street;
-    private string city;
-    private string state;
-    private string zipCode;
+public class Address {
+    private String street;
+    private String city;
+    private String state;
+    private String zipCode;
 
-    public toString() {
+    public String toString() {
         return street + ", " + city + ", " + state + " " + zipCode;
     }
 }

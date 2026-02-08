@@ -1,9 +1,9 @@
-public Class Person {
-    private string lastName;
-    private string firstName;
-    private address home;
+public class Person {
+    private String lastName;
+    private String firstName;
+    private Address home;
 
-    public tostring() {
+    public String toString() {
         return firstName + " " + lastName + " lives at " + home;
     }
 }
